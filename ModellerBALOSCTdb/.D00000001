@@ -1,0 +1,12 @@
+# Molecular dynamics simulation at 300.00 K
+#  Step   Current energy Av shift Mx shift   Kinetic energy    Kinetic temp.
+      0       1647.18738   0.0000   0.0000        632.36633        284.57059
+     10          5.48442   0.0391   0.3464       1997.72205        898.99298
+     20          3.04752   0.0395   0.3464       1999.80811        899.93176
+     30          5.51385   0.0395   0.3464       1996.98975        898.66345
+     40         12.00980   0.0394   0.3464       1990.88269        895.91522
+     50          5.41505   0.0396   0.3464       1999.04529        899.58850
+# Conjugate gradients optimization
+#  Step   Current energy Av shift Mx shift   Funcs         Gradient
+      0          5.41505   0.0000   0.0000       1          5138.42
+      2          0.00000   0.0024   0.1897       4                0
