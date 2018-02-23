@@ -32,7 +32,7 @@ QUAL = pickle.load(open("ModellerRSC758/Quality.dat","rb"))
 PROPKA = pickle.load(open("Propka/PropkaRSC758.dat","rb"))
 PSSM = pickle.load(open("PSSM/PSSMRSC758.dat","rb"))
 SS = pickle.load(open("SecondaryStructure/SSRSC758.dat","rb"))
-PV = pickle.load(open("BioVec/PVRSC758.dat","rb"), encoding='latin1')
+#PV = pickle.load(open("BioVec/PVRSC758.dat","rb"), encoding='latin1')
 y=np.array([float(x[2]) for x in data])
 Xfa = [x[0] for x in data]
 Xidx = [int(x[1]) for x in data]
